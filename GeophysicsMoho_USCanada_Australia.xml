@@ -1,0 +1,483 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Anne E. McCafferty</origin>
+        <origin>Brian L.N. Kennett</origin>
+        <origin>Michelle Salmon</origin>
+        <origin>Erdinc Saygin</origin>
+        <origin>AusMoho Working Group</origin>
+        <pubdate>20230814</pubdate>
+        <title>Depth to Moho GeoTIFF grids for the United States, Canada, and Australia</title>
+        <geoform>raster digital data</geoform>
+        <pubinfo>
+          <pubplace>Denver, CO</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <othercit>Additional information about Originator: McCafferty, A.E, https://orcid.org/0000-0001-5574-9201; Kennett, B.L.N., https://orcid.org/0000-0003-2206-5350; Salmon, M., https://orcid.org/0000-0002-8756-2457; Saygin, E., https://orcid.org/0000-0003-4666-0955.
+
+Suggested Citation: McCafferty, A.E., Kennett, B.L.N., Salmon, M., Saygin, E., and AusMoho Working Group, 2023, Depth to Moho GeoTIFF grids for the United States, Canada, and Australia, in McCafferty, A.E., San Juan, C.A., Lawley, C.J.M., Graham, G.E., Gadd, M.G., Huston, D.L., Kelley, K.D., Paradis, S., Peter, J.M., and Czarnota, K., National-scale geophysical, geologic, and mineral resource data and grids for the United States, Canada, and Australia: Data in support of the tri-national Critical Minerals Mapping Initiative: U.S. Geological Survey data release, https://doi.org/10.5066/P970GDD5.</othercit>
+        <onlink>https://doi.org/10.5066/P970GDD5</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>The Mohorovicic discontinuity or 'Moho' maps the boundary between the earth's crust and mantle and is defined by an abrupt change in seismic velocity due to changes in the density of rocks between the crust and mantle. GeoTIFF grids that map depth to Moho (crustal thickness) for the United States and Canada, and for Australia are provided in this report and were used as evidential layers in developing prospectivity models for basin-hosted Pb-Zn mineralization (Lawley and others, 2022). A composite grid of Moho depths across the United States and Canada was created using data from Shen and Ritzwoller (2016) for the conterminous United States, from Zhang and others (2019) for Alaska, and from Schetselaar and Snyder (2017) for Canada. For this study, data covering North America were gridded onto a 0.25 degree grid and merged to create the composite grid across the United States and Canada. A grid of depth to Moho for Australia is from Kennett and others (2011). The GeoTiff grid of Moho for Australia is provided here as a courtesy for completeness of the model. The original data sources should be cited specific to the area covered.
+
+References
+Kennett, B.L.N., Salmon, M., Saygin, E., and AusMoho Working Group, 2011, AusMoho: The variation of Moho depth in Australia: Geophysical Journal International, v. 187, no. 2, p. 946-958, https://doi.org/10.1111/j.1365-246X.2011.05194.x.
+
+Lawley, C.J.M., McCafferty, A.E, Graham, G.E., Huston, D.L., Kelley, K.D., Czarnota, K., Paradis, S., Peter, J.M., Hayward, N., Barlow, M., Emsbo, P., Coyan, J., San Juan, C.A., and Gadd, M.G., 2022, Data-driven prospectivity modelling of sediment-hosted Zn-Pb mineral systems and their critical raw materials: Ore Geology Reviews, v. 141, no. 104635, https://doi.org/10.1016/j.oregeorev.2021.104635.
+
+Schetselaar, E.M., and Snyder, D.B., 2017, National database of Moho depth estimates from seismic refraction and teleseismic surveys: Natural Resources Canada Open File 8243, https://doi.org/10.4095/305396.
+
+Shen, W., and Ritzwoller, M.H., 2016, 3D shear-wave velocity model of the US from joint inversion of surface wave dispersion from ambient noise and earthquakes, Rayleigh wave H/V ratio, and receiver functions: Incorporated Research Institutions for Seismology, https://doi.org/10.17611/DP/EMCUS2016.
+
+Zhang, Y., Li, A., and Hu, H., 2019, Crustal structure in Alaska from receiver function analysis: Geophysical Research Letters, v. 46, no. 3, p. 1284-1292, https://doi.org/10.1029/2018GL081011.</abstract>
+      <purpose>The purpose of these data is to provide a composite depth to Moho grid for the United States and Canada and a depth to Moho grid for Australia. The grids were used in developing prospectivity models for basin-hosted Pb-Zn mineralization as part of the tri-national Critical Minerals Mapping Initiative, a collaboration between the national geological surveys of the United States (U.S. Geological Survey), Canada (Geological Survey of Canada) and Australia (Geoscience Australia).</purpose>
+      <supplinf>The data are provided in GeoTIFF format, which is used for gridded data and is a public domain geospatial tagged image file format that maintains the original data values as grid cells. The GeoTIFF grids can be read and written by many common geographic software tools including ArcMap and QGIS. GeoTIFFs are provided as zip files consisting of a .tif (image file), a .tfw (world file), and a .xml (metadata file). All data are in geographic coordinates using a WGS84 datum.
+
+Also provided are jpg files that provide an image to visualize the GeoTIFF grids.
+
+DATA FILES-GeoTIFFs
+
+GeophysicsMoho_USCanada: Depth to Moho grid for US and Canada. Cell size 0.25 degrees.
+
+GeophysicsMoho_Australia: Depth to Moho grid for Australia. Cell size 0.1 degrees.</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>20110101</begdate>
+          <enddate>20191231</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>publication date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-173.1250</westbc>
+        <eastbc>153.6500</eastbc>
+        <northbc>83.1250</northbc>
+        <southbc>-43.6500</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>geoscientificInformation</themekey>
+      </theme>
+      <theme>
+        <themekt>none</themekt>
+        <themekey>U.S. Geological Survey</themekey>
+        <themekey>USGS</themekey>
+        <themekey>Geological Survey of Canada</themekey>
+        <themekey>GSC</themekey>
+        <themekey>Geoscience Australia</themekey>
+        <themekey>GA</themekey>
+        <themekey>Critical Minerals Mapping Initiative</themekey>
+        <themekey>CMMI</themekey>
+        <themekey>Mineral Resources Program</themekey>
+        <themekey>MRP</themekey>
+        <themekey>Geology, Geophysics, and Geochemistry Science Center</themekey>
+        <themekey>GGGSC</themekey>
+        <themekey>Targeted Geoscience Initiative</themekey>
+        <themekey>TGI</themekey>
+        <themekey>Exploring for the Future Program</themekey>
+        <themekey>depth to Moho</themekey>
+        <themekey>crustal thickness</themekey>
+        <themekey>crustal structure</themekey>
+        <themekey>Moho</themekey>
+        <themekey>Mohorovičić discontinuity</themekey>
+      </theme>
+      <theme>
+        <themekt>USGS Thesaurus</themekt>
+        <themekey>critical minerals</themekey>
+        <themekey>metallic mineral resources</themekey>
+        <themekey>mineral resources</themekey>
+        <themekey>lead</themekey>
+        <themekey>zinc</themekey>
+        <themekey>mantle</themekey>
+        <themekey>magnetic field (earth)</themekey>
+        <themekey>geophysics</themekey>
+        <themekey>maps and atlases</themekey>
+        <themekey>mantle (earth)</themekey>
+      </theme>
+      <theme>
+        <themekt>USGS Metadata Identifier</themekt>
+        <themekey>USGS:61cdf5f9d34ed79293fc8712</themekey>
+      </theme>
+      <place>
+        <placekt>Common geographic areas</placekt>
+        <placekey>United States</placekey>
+        <placekey>Canada</placekey>
+        <placekey>Australia</placekey>
+      </place>
+    </keywords>
+    <accconst>None. Please see 'Distribution Info' for details.</accconst>
+    <useconst>Any use of trade, firm, or product names is for descriptive purposes only and does not imply endorsement by the U.S. Government. Although these data have been processed successfully on a computer system at the U.S. Geological Survey (USGS), no warranty expressed or implied is made regarding the display or utility of the data for other purposes, nor on all computer systems, nor shall the act of distribution constitute any such warranty. The USGS or the U.S. Government, GA or the Australian Government, and GSC or the Canadian Government shall not be held liable for improper or incorrect use of the data described and/or contained herein.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Anne E McCafferty</cntper>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntperp>
+        <cntpos>Research Geophysicist</cntpos>
+        <cntaddr>
+          <addrtype>mailing</addrtype>
+          <address>Mail Stop 964, W 6th Ave and Kipling St</address>
+          <city>Denver</city>
+          <state>CO</state>
+          <postal>80225</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>303-236-1397</cntvoice>
+        <cntemail>anne@usgs.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <datacred>This release of the dataset was funded by the U.S. Geological Survey Mineral Resources Program (MRP). The authors would like to thank the Geological Survey of Canada’s Targeted Geoscience Initiative and Geoscience Australia’s Exploring for the Future Program for providing data for this study. Acknowledgment of the U.S. Geological Survey, the Geological Survey of Canada and Geoscience Australia would be appreciated in products derived from these data. In addition, acknowledgment of the original authors listed under "Related External Resources” at https://doi.org/10.5066/P970GDD5 should occur for non-governmental data.</datacred>
+    <native>The data were generated on a Dell Precision 7550 laptop computer using commercially available software including Geosoft Oasis Montaj v. 9.9.1 and ESRI ArcMap v.10.8.1.</native>
+    <crossref>
+      <citeinfo>
+        <origin>Christopher J.M. Lawley</origin>
+        <origin>Anne E. McCafferty</origin>
+        <origin>Garth E. Graham</origin>
+        <origin>David L. Huston</origin>
+        <origin>Karen D. Kelley</origin>
+        <origin>Karol Czarnota</origin>
+        <origin>Suzanne Paradis</origin>
+        <origin>Jan M. Peter</origin>
+        <origin>Nathan Hayward</origin>
+        <origin>Mike Barlow</origin>
+        <origin>Poul Emsbo</origin>
+        <origin>Joshua Coyan</origin>
+        <origin>Carma A. San Juan</origin>
+        <origin>Michael G. Gadd</origin>
+        <pubdate>202202</pubdate>
+        <title>Data-driven prospectivity modelling of sediment-hosted Zn-Pb mineral systems and their critical raw materials</title>
+        <geoform>publication</geoform>
+        <serinfo>
+          <sername>Ore Geology Reviews</sername>
+          <issue>volume 141</issue>
+        </serinfo>
+        <pubinfo>
+          <pubplace>n/a</pubplace>
+          <publish>Elsevier BV</publish>
+        </pubinfo>
+        <othercit>Lawley, C.J.M., McCafferty, A.E., Graham, G.E., Huston, D.L., Kelley, K.D., Czarnota, K., Paradis, S., Peter, J.M., Hayward, N., Barlow, M., Emsbo, P., Coyan, J., San Juan, C.A., and Gadd, M.G., 2022, Data-driven prospectivity modelling of sediment-hosted Zn-Pb mineral systems and their critical raw materials: Ore Geology Reviews, v. 141, no. 104635, https://doi.org/10.1016/j.oregeorev.2021.104635.</othercit>
+        <onlink>https://doi.org/10.1016/j.oregeorev.2021.104635</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>Christopher J.M. Lawley</origin>
+        <origin>Anne E. McCafferty</origin>
+        <origin>Garth E. Graham</origin>
+        <origin>Michael G. Gadd</origin>
+        <origin>David L. Huston</origin>
+        <origin>Karen D. Kelley</origin>
+        <origin>Suzanne Paradis</origin>
+        <origin>Jan M. Peter</origin>
+        <origin>Karol Czarnota</origin>
+        <pubdate>2021</pubdate>
+        <title>Datasets to support prospectivity modelling for sediment-hosted Zn-Pb mineral systems</title>
+        <geoform>publication</geoform>
+        <serinfo>
+          <sername>Geological Survey of Canada Open File</sername>
+          <issue>8836</issue>
+        </serinfo>
+        <pubinfo>
+          <pubplace>Canada</pubplace>
+          <publish>Natural Resources Canada</publish>
+        </pubinfo>
+        <othercit>Lawley, C.J.M., McCafferty, A.E., Graham, G.E., Gadd, M.G., Huston, D.L., Kelley, K.D., Paradis, S., Peter, J.M., and Czarnota, K., 2021, Datasets to support prospectivity modelling for sediment-hosted Zn-Pb mineral systems: Natural Resources Canada Open File 8836, https://doi.org/10.4095/329203.</othercit>
+        <onlink>https://doi.org/10.4095/329203</onlink>
+      </citeinfo>
+    </crossref>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>These data have been peer reviewed and compared with related ancillary data.</attraccr>
+    </attracc>
+    <logic>Data were reviewed for consistency and analyses results were checked for validity and fidelity of relationships.</logic>
+    <complete>Data set is considered complete for the information presented, as described in the abstract. Users are advised to read the rest of the metadata record carefully for additional details. All data as part of this collection were included in this data release for the region and time period specified in this metadata.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Spatial locations were determined from previously published national grids.</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>No formal positional accuracy tests were conducted.</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Weisen Shen</origin>
+            <origin>Michael H. Ritzwoller</origin>
+            <pubdate>20160605</pubdate>
+            <title>3D shear-wave velocity model of the US from joint inversion of surface wave dispersion from ambient noise and earthquakes, Rayleigh wave H/V ratio, and receiver functions</title>
+            <geoform>publication</geoform>
+            <pubinfo>
+              <pubplace>n/a</pubplace>
+              <publish>Incorporated Research Institutions for Seismology</publish>
+            </pubinfo>
+            <othercit>Shen, W., and Ritzwoller, M.H., 2016, 3D shear-wave velocity model of the US from joint inversion of surface wave dispersion from ambient noise and earthquakes, Rayleigh wave H/V ratio, and receiver functions: Incorporated Research Institutions for Seismology, https://doi.org/10.17611/DP/EMCUS2016.</othercit>
+            <onlink>https://doi.org/10.17611/DP/EMCUS2016</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>Digital and/or Hardcopy</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20160605</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>Shen and Ritzwoller, 2016</srccitea>
+        <srccontr>Moho for the conterminous United States</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Ying Zhang</origin>
+            <origin>Aibing Li</origin>
+            <origin>Hao Hu</origin>
+            <pubdate>20190204</pubdate>
+            <title>Crustal structure in Alaska from receiver function analysis</title>
+            <geoform>publication</geoform>
+            <serinfo>
+              <sername>Geophysical Research Letters</sername>
+              <issue>volume 46, issue 3</issue>
+            </serinfo>
+            <pubinfo>
+              <pubplace>n/a</pubplace>
+              <publish>American Geophysical Union (AGU)</publish>
+            </pubinfo>
+            <othercit>Zhang, Y., Li, A., and Hu, H., 2019, Crustal structure in Alaska from receiver function analysis: Geophysical Research Letters, v. 46, no. 3, p. 1284-1292, https://doi.org/10.1029/2018GL081011.</othercit>
+            <onlink>https://doi.org/10.1029/2018GL081011</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>Digital and/or Hardcopy</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>2019</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>Zhang and others, 2019</srccitea>
+        <srccontr>Moho for Alaska</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Ernst M. Schetselaar</origin>
+            <origin>David B. Snyder</origin>
+            <pubdate>2017</pubdate>
+            <title>National database of Moho depth estimates from seismic refraction and teleseismic surveys</title>
+            <geoform>publication</geoform>
+            <pubinfo>
+              <pubplace>n/a</pubplace>
+              <publish>Natural Resources Canada</publish>
+            </pubinfo>
+            <othercit>Schetselaar, E.M., and Snyder, D.B., 2017, National database of Moho depth estimates from seismic refraction and teleseismic surveys: Natural Resources Canada Open File 8243, https://doi.org/10.4095/305396.</othercit>
+            <onlink>https://doi.org/10.4095/305396</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>Digital and/or Hardcopy</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>2017</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>Schetselaar and Snyder, 2017</srccitea>
+        <srccontr>Moho for Canada</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Brian L.N. Kennett</origin>
+            <origin>Michelle Salmon</origin>
+            <origin>Erdinc Saygin</origin>
+            <origin>AusMoho Working Group</origin>
+            <pubdate>20110923</pubdate>
+            <title>AusMoho: the variation of Moho depth in Australia</title>
+            <geoform>publication</geoform>
+            <serinfo>
+              <sername>Geophysical Journal International</sername>
+              <issue>volume 187, issue 2</issue>
+            </serinfo>
+            <pubinfo>
+              <pubplace>n/a</pubplace>
+              <publish>Oxford University Press (OUP)</publish>
+            </pubinfo>
+            <othercit>Kennett, B.L.N., Salmon, M., Saygin, E., and AusMoho Working Group, 2011, AusMoho: The variation of Moho depth in Australia: Geophysical Journal International, v. 187, no. 2, p. 946-958, https://doi.org/10.1111/j.1365-246X.2011.05194.x.</othercit>
+            <onlink>https://doi.org/10.1111/j.1365-246X.2011.05194.x</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>Digital and/or Hardcopy</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>2011</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>Kennett and others, 2011</srccitea>
+        <srccontr>Moho for Australia</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>GeophysicsMoho_USCanada.tif:
+
+For the conterminous United States, the Mantle/Crust interface surface was extracted from the EMC-US.2016 3D shear-wave velocity model of the US based on EarthScope USArray/Transportable Array (TA) data provided on Incorporated Research Institutions for Seismology (IRIS) (http://ds.iris.edu/ds/products/emc-us2016/) by the U.S. Geological Survey Geologic Hazards Science Center and provided to the authors as an ASCII file containing longitude in decimal degrees, latitude in decimal degrees, and Moho depth in kilometers (Shen and Ritzwoller, 2016). For Alaska, data were supplied to the USGS from Aibing Li as an ascii xyz file from Zhang and others (2019). For Canada, data from Schetselaar and Snyder (2017) were provided to the USGS from Chris Lawley at the Canadian Geological Survey. Data were gridded using Geosoft Oasis Montaj onto a 0.25 degree grid to create a seamless composite depth to Moho grid for the United States and Canada.</procdesc>
+        <srcused>Shen and Ritzwoller, 2016)</srcused>
+        <srcused>Zhang and others, 2019</srcused>
+        <srcused>Schetselaar and Snyder, 2017</srcused>
+        <procdate>20201231</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>GeophysicsMoho_Australia.tif:
+
+Point data provided to the USGS by Geoscience Australia from data published in Kennett and others (2011) were converted to a 0.25-degree grid using Geosoft Oasis Montaj.</procdesc>
+        <srcused>Kennett and others, 2011</srcused>
+        <procdate>20201231</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>The Geosoft grids were exported to .flt format, then converted to GeoTIFF format using Esri ArcMap.</procdesc>
+        <procdate>20201231</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Raster</direct>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <geograph>
+        <latres>0.00000001</latres>
+        <longres>0.00000001</longres>
+        <geogunit>Decimal degrees</geogunit>
+      </geograph>
+      <geodetic>
+        <horizdn>WGS_1984</horizdn>
+        <ellips>WGS 1984</ellips>
+        <semiaxis>6378137</semiaxis>
+        <denflat>298.257223563</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>GeophysicsMoho_USCanada.tif</enttypl>
+        <enttypd>Depth to the Mohorovicic discontinuity (Moho) in kilometers below the surface marked by an abrupt change in seismic velocity between the earth's crust and mantle.</enttypd>
+        <enttypds>U.S. Geological Survey</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Moho depth</attrlabl>
+        <attrdef>Depth to Moho in kilometers. NoData value is -3.40282346639e+38.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>7.8603973388672</rdommin>
+            <rdommax>56.610595703125</rdommax>
+            <attrunit>km</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>GeophysicsMoho_Australia.tif</enttypl>
+        <enttypd>Depth to the Mohorovicic discontinuity (Moho) in kilometers below the surface marked by an abrupt change in seismic velocity between the earth's crust and mantle.</enttypd>
+        <enttypds>U.S. Geological Survey</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Value</attrlabl>
+        <attrdef>Depth to Moho in kilometers. NoData value is -3.40282346639e+38.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>20.319074630737</rdommin>
+            <rdommax>55.289752960205</rdommax>
+            <attrunit>km</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey</cntorg>
+          <cntper>GS ScienceBase</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>Denver Federal Center, Building 810, Mail Stop 302</address>
+          <city>Denver</city>
+          <state>CO</state>
+          <postal>80225</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>1-888-275-8747</cntvoice>
+        <cntemail>sciencebase@usgs.gov</cntemail>
+      </cntinfo>
+    </distrib>
+    <resdesc>https://www.sciencebase.gov/catalog/item/619a9a3ad34eb622f692f961</resdesc>
+    <distliab>Unless otherwise stated, all data, metadata and related materials are considered to satisfy the quality standards relative to the purpose for which the data were collected. Although these data and associated metadata have been reviewed for accuracy and completeness and approved for release by the U.S. Geological Survey (USGS), the Geological Survey of Canada (GSC), and Geoscience Australia (GA), no warranty expressed or implied is made regarding the display or utility of the data for other purposes, nor on all computer systems, nor shall the act of distribution constitute any such warranty.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>digital data</formname>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://doi.org/10.5066/P970GDD5</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>none</fees>
+    </stdorder>
+    <techpreq>none</techpreq>
+  </distinfo>
+  <metainfo>
+    <metd>20230814</metd>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntper>Anne E McCafferty</cntper>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing</addrtype>
+          <address>Mail Stop 962, W 6th Ave and Kipling St</address>
+          <city>Denver</city>
+          <state>CO</state>
+          <postal>80225</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>303-236-1397</cntvoice>
+        <cntemail>anne@usgs.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+</metadata>

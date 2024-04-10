@@ -1,0 +1,703 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Christopher J.M. Lawley</origin>
+        <origin>Garth E. Graham</origin>
+        <origin>Michael G. Gadd</origin>
+        <origin>Karol Czarnota</origin>
+        <origin>David L. Huston</origin>
+        <origin>Carma A. San Juan</origin>
+        <pubdate>20230814</pubdate>
+        <title>Gridded geology shapefiles for the United States, Canada, and Australia</title>
+        <geoform>vector digital data</geoform>
+        <pubinfo>
+          <pubplace>Denver, CO</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <othercit>Additional information about Originator: Lawley, C.J.M., https://orcid.org/0000-0001-6877-0675; Graham, G.E., https://orcid.org/0000-0003-0657-0365; Gadd, M.G., https://orcid.org/0000-0001-9297-7123; Czarnota, K., https://orcid.org/0000-0003-2338-4556; Huston, D.L., https://orcid.org/0000-0002-1740-6336; San Juan, C.A., https://orcid.org/0000-0002-9151-1919.
+
+Suggested Citation: 
+Lawley, C.J.M., Graham, G.E., Gadd, M.G., Czarnota, K., Huston, D.L., and San Juan, C.A., 2023, Gridded geology shapefiles for the United States, Canada, and Australia, in McCafferty, A.E., San Juan, C.A., Lawley, C.J.M., Graham, G.E., Gadd, M.G., Huston, D.L., Kelley, K.D., Paradis, S., Peter, J.M., and Czarnota, K., National-scale geophysical, geologic, and mineral resource data and grids for the United States, Canada, and Australia: Data in support of the tri-national Critical Minerals Mapping Initiative: U.S. Geological Survey data release, https://doi.org/10.5066/P970GDD5.</othercit>
+        <onlink>https://doi.org/10.5066/P970GDD5</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>These data provide geologic information, including generalized lithology, geologic age, and paleo-latitude and -longitude of geologic units, for the United States, Canada, and Australia, in an H3 Discrete Global Grid System (DGGS) hexagonal format (Uber Technologies Inc., 2020) with an average hexagon area of 5.16 square kilometers. The data are presented as the shapefile version of ASCII data developed by Lawley and others (2021) for prospectivity modeling of basin-hosted Pb-Zn mineralization in the United States, Canada, and Australia (Lawley and others, 2022).
+
+References
+Lawley, C.J.M., McCafferty, A.E., Graham, G.E., Gadd, M.G., Huston, D.L., Kelley, K.D., Paradis, S., Peter, J.M., and Czarnota, K., 2021, Datasets to support prospectivity modelling for sediment-hosted Zn-Pb mineral systems: Natural Resources Canada Open File 8836, https://doi.org/10.4095/329203.
+
+Lawley, C.J.M., McCafferty, A.E., Graham, G.E., Huston, D.L., Kelley, K.D., Czarnota, K., Paradis, S., Peter, J.M., Hayward, N., Barlow, M., Emsbo, P., Coyan, J., San Juan, C.A., and Gadd, M.G., 2022, Data-driven prospectivity modelling of sediment-hosted Zn-Pb mineral systems and their critical raw materials: Ore Geology Reviews, v. 141, no. 104635, https://doi.org/10.1016/j.oregeorev.2021.104635.
+
+Uber Technologies Inc., 2020, H3: A hexagonal hierarchical geospatial indexing system: GitHub Repository, https://github.com/uber/h3.</abstract>
+      <purpose>The purpose of these datasets is to provide a GIS format of gridded data used as input layers for prospectivity modeling of basin-hosted Pb-Zn mineralization in the United States, Canada, and Australia (Lawley and others, 2022). Geologic information is presented in a hexagonal grid format with an average hexagon area of 5.16 square kilometers that is best suited for small-scale or continental use.
+
+References
+Lawley, C.J.M., McCafferty, A.E., Graham, G.E., Huston, D.L., Kelley, K.D., Czarnota, K., Paradis, S., Peter, J.M., Hayward, N., Barlow, M., Emsbo, P., Coyan, J., San Juan, C.A., and Gadd, M.G., 2022, Data-driven prospectivity modelling of sediment-hosted Zn-Pb mineral systems and their critical raw materials: Ore Geology Reviews, v. 141, no. 104635, https://doi.org/10.1016/j.oregeorev.2021.104635.</purpose>
+      <supplinf>Gridded geology data for the conterminous U.S., Alaska, Canada, and Australia are provided as four zipped Esri shapefiles. Data are also provided as a single Esri geodatabase. A comma separated value (CSV) file provides the Critical Minerals Mapping Initiative (CMMI) rock classification used to standardize lithologies for the three countries. Two Esri layer files allow the data to be displayed by lithology and geologic time period. These files are:
+
+Geology_H3Grid_Alaska.zip - shapefile of geology for the state of Alaska that includes generalized lithology, geologic age, and paleo-latitude and -longitude of geologic units in the Uber (2020) H3 Discrete Global Grid System (DGGS) hexagonal format.
+
+Geology_H3Grid_Australia.zip - shapefile of geology for Australia that includes generalized lithology, geologic age, and paleo-latitude and -longitude of geologic units in the Uber (2020) H3 Discrete Global Grid System (DGGS) hexagonal format.
+
+Geology_H3Grid_Canada.zip - shapefile of geology for Canada that includes generalized lithology, geologic age, and paleo-latitude and -longitude of geologic units in the Uber (2020) H3 Discrete Global Grid System (DGGS) hexagonal format.
+
+Geology_H3Grid_CONUS.zip - shapefile of geology for the conterminous United States that includes generalized lithology, geologic age, and paleo-latitude and -longitude of geologic units in the Uber (2020) H3 Discrete Global Grid System (DGGS) hexagonal format.
+
+Geology_H3Grid_US_Canada_Australia.gdb.zip - geodatabase of geology for the United States, Canada, and Australia that includes generalized lithology, geologic age, and paleo-latitude and -longitude of geologic units in the Uber (2020) H3 Discrete Global Grid System (DGGS) hexagonal format.
+
+CMMI_Classification.csv - CMMI lithologic classification scheme.
+
+Geology_Lithology.lyr - Esri layer file for symbolizing lithology.
+
+Geology_Period.lyr - Esri layer file for symbolizing geologic period.</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>2023</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>publication date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-179.1540</westbc>
+        <eastbc>179.7736</eastbc>
+        <northbc>83.1229</northbc>
+        <southbc>-54.7538</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>geoscientificInformation</themekey>
+      </theme>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>U.S. Geological Survey</themekey>
+        <themekey>USGS</themekey>
+        <themekey>Geological Survey of Canada</themekey>
+        <themekey>GSC</themekey>
+        <themekey>Geoscience Australia</themekey>
+        <themekey>GA</themekey>
+        <themekey>Critical Minerals Mapping Initiative</themekey>
+        <themekey>CMMI</themekey>
+        <themekey>Mineral Resources Program</themekey>
+        <themekey>MRP</themekey>
+        <themekey>Geology, Geophysics, and Geochemistry Science Center</themekey>
+        <themekey>GGGSC</themekey>
+        <themekey>Targeted Geoscience Initiative</themekey>
+        <themekey>TGI</themekey>
+        <themekey>Exploring for the Future Program</themekey>
+        <themekey>Discrete Global Grid System</themekey>
+        <themekey>hexagonal hierarchical geospatial indexing system</themekey>
+        <themekey>H3 DGGS</themekey>
+        <themekey>lithology</themekey>
+        <themekey>Uber grid</themekey>
+      </theme>
+      <theme>
+        <themekt>USGS Thesaurus</themekt>
+        <themekey>geologic maps</themekey>
+        <themekey>geology</themekey>
+        <themekey>geospatial datasets</themekey>
+        <themekey>igneous rocks</themekey>
+        <themekey>metamorphic rocks</themekey>
+        <themekey>rocks and deposits</themekey>
+        <themekey>sedimentary rocks</themekey>
+        <themekey>unconsolidated deposits</themekey>
+      </theme>
+      <theme>
+        <themekt>USGS Metadata Identifier</themekt>
+        <themekey>USGS:623a26e4d34e915b67cdf5f4</themekey>
+      </theme>
+      <place>
+        <placekt>Common geographic areas</placekt>
+        <placekey>United States</placekey>
+        <placekey>Canada</placekey>
+        <placekey>Australia</placekey>
+      </place>
+    </keywords>
+    <accconst>None. Please see 'Distribution Info' for details.</accconst>
+    <useconst>Any use of trade, firm, or product names is for descriptive purposes only and does not imply endorsement by the U.S. Government. Although these data have been processed successfully on a computer system at the U.S. Geological Survey (USGS), no warranty expressed or implied is made regarding the display or utility of the data for other purposes, nor on all computer systems, nor shall the act of distribution constitute any such warranty. The USGS or the U.S. Government, GA or the Australian Government, and GSC or the Canadian Government shall not be held liable for improper or incorrect use of the data described and/or contained herein.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Garth E Graham</cntper>
+          <cntorg>U.S. Geological Survey, ROCKY MOUNTAIN REGION</cntorg>
+        </cntperp>
+        <cntpos>Research Geologist</cntpos>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>Mail Stop 973, W 6th Ave Kipling St</address>
+          <city>Lakewood</city>
+          <state>CO</state>
+          <postal>80225</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>303-236-1558</cntvoice>
+        <cntfax>303-236-3200</cntfax>
+        <cntemail>ggraham@usgs.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <datacred>This release of the dataset was funded by the U.S. Geological Survey Mineral Resources Program (MRP). The authors would like to thank the Geological Survey of Canada’s Targeted Geoscience Initiative and Geoscience Australia’s Exploring for the Future Program for providing data for this study. Acknowledgment of the U.S. Geological Survey, the Geological Survey of Canada and Geoscience Australia would be appreciated in products derived from these data. In addition, acknowledgment of the original authors listed under "Related External Resources” at https://doi.org/10.5066/P970GDD5 should occur for non-governmental data.</datacred>
+    <native>Environment as of Metadata Creation: Microsoft [Windows 10 Enterprise] Version 10.0.19042 Build 19042; ESRI ArcMap v.10.8.1.</native>
+    <crossref>
+      <citeinfo>
+        <origin>Christopher J.M. Lawley</origin>
+        <origin>Anne E. McCafferty</origin>
+        <origin>Garth E. Graham</origin>
+        <origin>David L. Huston</origin>
+        <origin>Karen D. Kelley</origin>
+        <origin>Karol Czarnota</origin>
+        <origin>Suzanne Paradis</origin>
+        <origin>Jan M. Peter</origin>
+        <origin>Nathan Hayward</origin>
+        <origin>Mike Barlow</origin>
+        <origin>Poul Emsbo</origin>
+        <origin>Joshua Coyan</origin>
+        <origin>Carma A. San Juan</origin>
+        <origin>Michael G. Gadd</origin>
+        <pubdate>202202</pubdate>
+        <title>Data-driven prospectivity modelling of sediment-hosted Zn-Pb mineral systems and their critical raw materials</title>
+        <geoform>publication</geoform>
+        <serinfo>
+          <sername>Ore Geology Reviews</sername>
+          <issue>volume 141</issue>
+        </serinfo>
+        <pubinfo>
+          <pubplace>n/a</pubplace>
+          <publish>Elsevier BV</publish>
+        </pubinfo>
+        <othercit>Lawley, C.J.M., McCafferty, A.E., Graham, G.E., Huston, D.L., Kelley, K.D., Czarnota, K., Paradis, S., Peter, J.M., Hayward, N., Barlow, M., Emsbo, P., Coyan, J., San Juan, C.A., and Gadd, M.G., 2022, Data-driven prospectivity modelling of sediment-hosted Zn-Pb mineral systems and their critical raw materials: Ore Geology Reviews, v. 141, no. 104635, https://doi.org/10.1016/j.oregeorev.2021.104635.</othercit>
+        <onlink>https://doi.org/10.1016/j.oregeorev.2021.104635</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>Christopher J.M. Lawley</origin>
+        <origin>Anne E. McCafferty</origin>
+        <origin>Garth E. Graham</origin>
+        <origin>Michael G. Gadd</origin>
+        <origin>David L. Huston</origin>
+        <origin>Karen D. Kelley</origin>
+        <origin>Suzanne Paradis</origin>
+        <origin>Jan M. Peter</origin>
+        <origin>Karol Czarnota</origin>
+        <pubdate>2021</pubdate>
+        <title>Datasets to support prospectivity modelling for sediment-hosted Zn-Pb mineral systems</title>
+        <geoform>publication</geoform>
+        <serinfo>
+          <sername>Geological Survey of Canada Open File</sername>
+          <issue>8836</issue>
+        </serinfo>
+        <pubinfo>
+          <pubplace>Canada</pubplace>
+          <publish>Natural Resources Canada</publish>
+        </pubinfo>
+        <othercit>Lawley, C.J.M., McCafferty, A.E., Graham, G.E., Gadd, M.G., Huston, D.L., Kelley, K.D., Paradis, S., Peter, J.M., and Czarnota, K., 2021, Datasets to support prospectivity modelling for sediment-hosted Zn-Pb mineral systems: Natural Resources Canada Open File 8836, https://doi.org/10.4095/329203.</othercit>
+        <onlink>https://doi.org/10.4095/329203</onlink>
+      </citeinfo>
+    </crossref>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>Unique values in attribute fields were checked through frequency analyses. The unique values in each attribute field were reviewed and checked for spelling, consistency of terms, accuracy, adherence to established vocabularies, and completeness. These data have been peer reviewed and compared with related ancillary data.</attraccr>
+    </attracc>
+    <logic>Data were reviewed for consistency and analyses results were checked for validity and fidelity of relationships.</logic>
+    <complete>Data set is considered complete for the information presented, as described in the abstract. Users are advised to read the rest of the metadata record carefully for additional details. All data as part of this collection were included in this data release for the region and time period specified in this metadata.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Accuracy is dependent on the source data and varies by country. See original source references of each country for more information.</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>NA</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Christopher J.M. Lawley</origin>
+            <origin>Anne E. McCafferty</origin>
+            <origin>Garth E. Graham</origin>
+            <origin>Michael G. Gadd</origin>
+            <origin>David L. Huston</origin>
+            <origin>Karen D. Kelley</origin>
+            <origin>Suzanne Paradis</origin>
+            <origin>Jan M. Peter</origin>
+            <origin>Karol Czarnota</origin>
+            <pubdate>2021</pubdate>
+            <title>Datasets to support prospectivity modelling for sediment-hosted Zn-Pb mineral systems</title>
+            <geoform>publication</geoform>
+            <serinfo>
+              <sername>Geological Survey of Canada Open File</sername>
+              <issue>8836</issue>
+            </serinfo>
+            <pubinfo>
+              <pubplace>Canada</pubplace>
+              <publish>Natural Resources Canada</publish>
+            </pubinfo>
+            <othercit>Lawley, C.J.M., McCafferty, A.E., Graham, G.E., Gadd, M.G., Huston, D.L., Kelley, K.D., Paradis, S., Peter, J.M., and Czarnota, K., 2021, Datasets to support prospectivity modelling for sediment-hosted Zn-Pb mineral systems: Natural Resources Canada Open File 8836, https://doi.org/10.4095/329203.</othercit>
+            <onlink>https://doi.org/10.4095/329203</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>Digital and/or Hardcopy</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>2021</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>Lawley and others, 2021</srccitea>
+        <srccontr>Source data for gridded geology of the United States, Canada, and Australia. The Uber H3 DGGS grid cells are hexagonal in shape and have an area of 5.16 square kilometers.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Christopher J.M. Lawley</origin>
+            <origin>Anne E. McCafferty</origin>
+            <origin>Garth E. Graham</origin>
+            <origin>David L. Huston</origin>
+            <origin>Karen D. Kelley</origin>
+            <origin>Karol Czarnota</origin>
+            <origin>Suzanne Paradis</origin>
+            <origin>Jan M. Peter</origin>
+            <origin>Nathan Hayward</origin>
+            <origin>Mike Barlow</origin>
+            <origin>Poul Emsbo</origin>
+            <origin>Joshua Coyan</origin>
+            <origin>Carma A. San Juan</origin>
+            <origin>Michael G. Gadd</origin>
+            <pubdate>202202</pubdate>
+            <title>Data-driven prospectivity modelling of sediment-hosted Zn-Pb mineral systems and their critical raw materials</title>
+            <geoform>publication</geoform>
+            <serinfo>
+              <sername>Ore Geology Reviews</sername>
+              <issue>volume 141</issue>
+            </serinfo>
+            <pubinfo>
+              <pubplace>n/a</pubplace>
+              <publish>Elsevier BV</publish>
+            </pubinfo>
+            <othercit>Lawley, C.J.M., McCafferty, A.E., Graham, G.E., Huston, D.L., Kelley, K.D., Czarnota, K., Paradis, S., Peter, J.M., Hayward, N., Barlow, M., Emsbo, P., Coyan, J., San Juan, C.A., and Gadd, M.G., 2022, Data-driven prospectivity modelling of sediment-hosted Zn-Pb mineral systems and their critical raw materials: Ore Geology Reviews, v. 141, no. 104635, https://doi.org/10.1016/j.oregeorev.2021.104635.</othercit>
+            <onlink>https://doi.org/10.1016/j.oregeorev.2021.104635</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>Digital and/or Hardcopy</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>2202</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>Lawley and others, 2022</srccitea>
+        <srccontr>Report describing methods used for developing gridded geology of the United States, Canada, and Australia. Report tables also contain information used for attribution.</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>Lawley and others (2021) provides a detailed summary of data sources and processes used to develop the H3 gridded geologic datasets for the United States, Canada, and Australia. Excerpts from that summary are paraphrased (this section) for a subset of model parameters presented in this data release.
+
+Lithologic units from 23 source maps were compiled for the United States, Canada, and Australia. The CMMI lithologic classification scheme (CMMI_Classification.csv table) was used to subdivide rock units into four types (sedimentary, igneous, metamorphic, and other) and 31 sub-types based on dominant lithology. Dominant lithology was often inferred from the order of rock types that appeared in the unit descriptions. Metamorphosed rocks were re-classified as their dominant protolith if rock descriptions contained primary sedimentary and/or igneous features.
+
+Geologic ages (eon, era, period) provided in the source data were assumed to reflect the current International Chronostratigraphic Chart (Cohen and others, 2013) and were based on the maximum and minimum period defined in the source map data. The obsolete Tertiary period was re-classified into the Paleogene and Neogene; Precambrian ages were assumed to have maximum and minimum ages corresponding to the Paleoarchean and Cambrian, respectively; and units that only contained geological eras (Cenozoic, Mesozoic, Paleozoic) were re-formatted to their respective maximum and minimum periods. Some minimum ages may be anomalously young in glaciated areas. 
+
+The paleo-latitude of rocks at the time of their deposition and/or emplacement was estimated from the re-formatted geological age data. Paleogeographic reconstructions are based on Scotese (2021). Paleo-latitude and -longitude of each modeled tectonic plate were calculated using the “pole of inaccessibility” (that is, the farthest point from each plate boundary) and tracked through geological time using the GPlates web application (Muller and others, 2018). Calculated paleo-latitudes and -longitudes for large tectonic plates are subject to relatively large uncertainties.
+
+Cohen, K.M., Finney, S.C., Gibbard, P.L., and Fan, J.-X., 2013, International Chronostratigraphic Chart: International Commission on Stratigraphy (ver. 2022/02), https://www.stratigraphy.org/ICSchart/ChronostratChart2022-02.pdf.
+
+Muller, R.D., Cannon, J., Qin, X., Watson, R.J., Gurnis, M., Williams, S., Pfaffelmoser, T., Seton, M., Russell, S.H.J., and Zahirovic, S., 2018, GPlates: Building a virtual Earth through deep time: Geochemistry, Geophysics, Geosystems, v. 19, no. 7, p. 2243-2261, https://doi.org/10.1029/2018GC007584.
+
+Scotese, C.R., 2021, An atlas of Phanerozoic paleogeographic maps: The seas come in and the seas go out: Annual Review of Earth and Planetary Sciences, v. 49, p. 679-728.</procdesc>
+        <srcused>Lawley and others, 2021</srcused>
+        <procdate>2021</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Using data developed in Process Step one, Lawley and others (2021, 2022) projected vector geologic datasets to a common coordinate system (WGS84 datum, EPSG4326). Zonal statistics were used to convert the vector datasets to raster objects using R software packages (R Core Team, 2021). The raster data were then assigned a unique global address from the H3 DGGS hexagonal grid (Uber Technologies Inc., 2020) at spatial resolution 7 which results in an average hexagon area of 5.16 square kilometers. Resulting tabular data were stored as comma-separated values (CSV) where NA no data.
+
+R Core Team, 2021, R: A language and environment for statistical computing: Vienna, Austria, R Foundation for Statistical Computing, https://www.R-project.org.
+
+Uber Technologies Inc., 2020, H3: A hexagonal hierarchical geospatial indexing system: GitHub Repository, https://github.com/uber/h3.</procdesc>
+        <procdate>2021</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>The CSV data were imported into ArcGIS Map using longitude and latitude values to form the polygon geometries and presented in well-known-text format (WKT). Feature classes were converted to shapefiles and original field names were abbreviated to the shapefile 10-character limit. Because shapefiles store null values as zeroes, the zeroes were converted to “NA” in text fields, and -9999 in numeric fields.</procdesc>
+        <procdate>2022</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>G-polygon</sdtstype>
+        <ptvctcnt>5164970</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <geograph>
+        <latres>0.00000001</latres>
+        <longres>0.00000001</longres>
+        <geogunit>Decimal degrees</geogunit>
+      </geograph>
+      <geodetic>
+        <horizdn>WGS_1984</horizdn>
+        <ellips>WGS_84</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257223563</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>Geology_H3Grid_Alaska.shp, Geology_H3Grid_Australia.shp, Geology_H3Grid_Canada.shp, Geology_H3Grid_CONUS.shp. All attribute tables have the same scheme. Null values are denoted as “NA” in text fields and -9999 in numeric fields.</enttypl>
+        <enttypd>Dataset attribute table.</enttypd>
+        <enttypds>Authors</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>H3_Address</attrlabl>
+        <attrdef>H3_Address: H3 cell address</attrdef>
+        <attrdefs>Lawley and others, 2021</attrdefs>
+        <attrdomv>
+          <udom>Latitude and longitude coordinates converted to a unique H3 DGGS address (Uber Technologies Inc., 2020)</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>H3_Resol</attrlabl>
+        <attrdef>H3_Resolution: Resolution of the H3 hexagonal cell</attrdef>
+        <attrdefs>Lawley and others, 2021</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>7</rdommin>
+            <rdommax>7</rdommax>
+            <attrunit>NA</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>LongWGS84</attrlabl>
+        <attrdef>Longitude_WGS84: Longitude of central point of the H3 hexagonal cell (coordinates reported as decimal degrees and are based on WGS84; EPSG4326)</attrdef>
+        <attrdefs>Lawley and others, 2021</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-179.1540</rdommin>
+            <rdommax>179.7736</rdommax>
+            <attrunit>degrees</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>LatWGS84</attrlabl>
+        <attrdef>Latitude_WGS84: Latitude of central point of the H3 hexagonal cell (coordinates reported as decimal degrees and are based on WGS84; EPSG4326)</attrdef>
+        <attrdefs>Lawley and others, 2021</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-54.7538</rdommin>
+            <rdommax>83.1229</rdommax>
+            <attrunit>degrees</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ContMajor</attrlabl>
+        <attrdef>Continent_Majority: Continent name (of the largest portion of the H3 hexagonal cell)</attrdef>
+        <attrdefs>Lawley and others, 2021</attrdefs>
+        <attrdomv>
+          <udom>Example values: North America. NA indicates “no data”.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ContMinor</attrlabl>
+        <attrdef>Continent_Minority: Continent name (of the smallest portion of the H3 hexagonal cell)</attrdef>
+        <attrdefs>Lawley and others, 2021</attrdefs>
+        <attrdomv>
+          <udom>Example values: North America. NA indicates “no data”.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>CntryMajor</attrlabl>
+        <attrdef>Country_Majority: Country name (of the largest portion of the H3 hexagonal cell)</attrdef>
+        <attrdefs>Lawley and others, 2021</attrdefs>
+        <attrdomv>
+          <udom>Example values: Canada; United States of America</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>CntryMinor</attrlabl>
+        <attrdef>Country_Minority: Country name (of the smallest portion of the H3 hexagonal cell)</attrdef>
+        <attrdefs>Lawley and others, 2021</attrdefs>
+        <attrdomv>
+          <udom>Example values: Canada; United States of America; Mexico</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ProvMajor</attrlabl>
+        <attrdef>Province_Majority: Province, state, or territory name (of the largest portion of the H3 hexagonal cell)</attrdef>
+        <attrdefs>Lawley and others, 2021</attrdefs>
+        <attrdomv>
+          <udom>Example values include formal state names for the United States of America and province names for Canada</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ProvMinor</attrlabl>
+        <attrdef>Province_Minority: Province, state, or territory name (of the smallest portion of the H3 hexagonal cell)</attrdef>
+        <attrdefs>Lawley and others, 2021</attrdefs>
+        <attrdomv>
+          <udom>Example values include formal state names for the United States of America and province names for Canada</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>EonMaxMjr</attrlabl>
+        <attrdef>Eon_Maximum_Majority: Maximum Eon name (of the largest portion of the H3 hexagonal cell)</attrdef>
+        <attrdefs>Lawley and others, 2021</attrdefs>
+        <attrdomv>
+          <udom>Geologic eons are defined by source map data and assumed to follow the ICS International Chronostratigraphic Chart (Cohen and others, 2013). NA indicates “no data”.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>EonMaxMnr</attrlabl>
+        <attrdef>Eon_Maximum_Minority: Maximum Eon name (of the smallest portion of the H3 hexagonal cell)</attrdef>
+        <attrdefs>Lawley and others, 2021</attrdefs>
+        <attrdomv>
+          <udom>Geologic eons are defined by source map data and assumed to follow the ICS International Chronostratigraphic Chart (Cohen and others, 2013). NA indicates “no data”.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>EonMinMjr</attrlabl>
+        <attrdef>Eon_Minimum_Majority: Minimum Eon name (of the largest portion of the H3 hexagonal cell)</attrdef>
+        <attrdefs>Lawley and others, 2021</attrdefs>
+        <attrdomv>
+          <udom>Geologic eons are defined by source map data and assumed to follow the ICS International Chronostratigraphic Chart (Cohen and others, 2013). NA indicates “no data”.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>EonMinMnr</attrlabl>
+        <attrdef>Eon_Minimum_Minority: Minimum Eon name (of the smallest portion of the H3 hexagonal cell)</attrdef>
+        <attrdefs>Lawley and others, 2021</attrdefs>
+        <attrdomv>
+          <udom>Geologic eons are defined by source map data and assumed to follow the ICS International Chronostratigraphic Chart (Cohen and others, 2013). NA indicates “no data”.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>EraMaxMjr</attrlabl>
+        <attrdef>Era_Maximum_Majority: Maximum Era name (of the largest portion of the H3 hexagonal cell)</attrdef>
+        <attrdefs>Lawley and others, 2021</attrdefs>
+        <attrdomv>
+          <udom>Geologic eras are defined by source map data and assumed to follow the ICS International Chronostratigraphic Chart (Cohen and others, 2013). NA indicates “no data”.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>EraMaxMnr</attrlabl>
+        <attrdef>Era_Maximum_Minority: Maximum Era name (of the smallest portion of the H3 hexagonal cell)</attrdef>
+        <attrdefs>Lawley and others, 2021</attrdefs>
+        <attrdomv>
+          <udom>Geologic eras are defined by source map data and assumed to follow the ICS International Chronostratigraphic Chart (Cohen and others, 2013). NA indicates “no data”.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>EraMinMjr</attrlabl>
+        <attrdef>Era_Minimum_Majority: Minimum Era name (of the largest portion of the H3 hexagonal cell)</attrdef>
+        <attrdefs>Lawley and others, 2021</attrdefs>
+        <attrdomv>
+          <udom>Geologic eras are defined by source map data and assumed to follow the ICS International Chronostratigraphic Chart (Cohen and others, 2013). NA indicates “no data”.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>EraMinMnr</attrlabl>
+        <attrdef>Era_Minimum_Minority: Minimum Era name (of the smallest portion of the H3 hexagonal cell)</attrdef>
+        <attrdefs>Lawley and others, 2021</attrdefs>
+        <attrdomv>
+          <udom>Geologic eras are defined by source map data and assumed to follow the ICS International Chronostratigraphic Chart (Cohen and others, 2013). NA indicates “no data”.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PrdMaxMjr</attrlabl>
+        <attrdef>Period_Maximum_Majority: Maximum Period name (of the largest portion of the H3 hexagonal cell)</attrdef>
+        <attrdefs>Lawley and others, 2021</attrdefs>
+        <attrdomv>
+          <udom>Geologic periods are defined by source map data and assumed to follow the ICS International Chronostratigraphic Chart (Cohen and others, 2013). NA indicates “no data”.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PrdMaxMnr</attrlabl>
+        <attrdef>Period_Maximum_Minority: Maximum Period name (of the smallest portion of the H3 hexagonal cell)</attrdef>
+        <attrdefs>Lawley and others, 2021</attrdefs>
+        <attrdomv>
+          <udom>Geologic periods are defined by source map data and assumed to follow the ICS International Chronostratigraphic Chart (Cohen and others, 2013). NA indicates “no data”.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PrdMinMjr</attrlabl>
+        <attrdef>Period_Minimum_Majority: Minimum Period name (of the largest portion of the H3 hexagonal cell)</attrdef>
+        <attrdefs>Lawley and others, 2021</attrdefs>
+        <attrdomv>
+          <udom>Geologic periods are defined by source map data and assumed to follow the ICS International Chronostratigraphic Chart (Cohen and others, 2013). NA indicates “no data”.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PrdMinMnr</attrlabl>
+        <attrdef>Period_Minimum_Minority: Minimum Period name (of the smallest portion of the H3 hexagonal cell)</attrdef>
+        <attrdefs>Lawley and others, 2021</attrdefs>
+        <attrdomv>
+          <udom>Geologic periods are defined by source map data and assumed to follow the ICS International Chronostratigraphic Chart (Cohen and others, 2013). NA indicates “no data”.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PrdContact</attrlabl>
+        <attrdef>Period_Contact: Presence or absence of H3 cells with two or more geological periods</attrdef>
+        <attrdefs>Lawley and others, 2021</attrdefs>
+        <attrdomv>
+          <udom>Identifies H3 hexagonal grid cells where more than one geologic unit of differing age was present in the source data. NA indicates “no data”.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>LithMajor</attrlabl>
+        <attrdef>Lithology_Majority: CMMI lithologic class (of the largest portion of the H3 hexagonal cell)</attrdef>
+        <attrdefs>Lawley and others, 2021</attrdefs>
+        <attrdomv>
+          <udom>See CMMI_Classification.csv included in this data release for generalized classification groups and descriptions.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>LithMinor</attrlabl>
+        <attrdef>Lithology_Minority: CMMI lithologic class (of the smallest portion of the H3 hexagonal cell)</attrdef>
+        <attrdefs>Lawley and others, 2021</attrdefs>
+        <attrdomv>
+          <udom>See CMMI_Classification.csv included in this data release for generalized classification groups and descriptions. NA indicates “no data”.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>LithCntact</attrlabl>
+        <attrdef>Lithology_Contact: Presence or absence of H3 cells with two or more lithologies</attrdef>
+        <attrdefs>Lawley and others, 2021</attrdefs>
+        <attrdomv>
+          <udom>Identifies H3 hexagonal grid cells where multiple geologic units of differing lithologies were present in the source data. NA indicates “no data”.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PLngPrdMax</attrlabl>
+        <attrdef>Paleolongitude_Period_Maximum: Calculated paleo-longitude based on maximum period (degrees). Null values are indicated by -9999.</attrdef>
+        <attrdefs>Lawley and others, 2021</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-175.87</rdommin>
+            <rdommax>173.48</rdommax>
+            <attrunit>degrees</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PLngPrdMin</attrlabl>
+        <attrdef>Paleolongitude_Period_Minimum: Calculated paleo-longitude based on minimum period (degrees). Null values are indicated by -9999.</attrdef>
+        <attrdefs>Lawley and others, 2021</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-175.83</rdommin>
+            <rdommax>176.15</rdommax>
+            <attrunit>degrees</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PLatPrdMax</attrlabl>
+        <attrdef>Paleolatitude_Period_Maximum: Calculated paleo-latitude based on maximum period (degrees). Null values are indicated by -9999.</attrdef>
+        <attrdefs>Lawley and others, 2021</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-81.97</rdommin>
+            <rdommax>82.67</rdommax>
+            <attrunit>degrees</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PLatPrdMin</attrlabl>
+        <attrdef>Paleolatitude_Period_Minimum: Calculated paleo-latitude based on minimum period (degrees). Null values are indicated by -9999.</attrdef>
+        <attrdefs>Lawley and others, 2021</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-81.97</rdommin>
+            <rdommax>82.67</rdommax>
+            <attrunit>degrees</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey</cntorg>
+          <cntper>GS ScienceBase</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>Denver Federal Center, Building 810, Mail Stop 302</address>
+          <city>Denver</city>
+          <state>CO</state>
+          <postal>80225</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>1-888-275-8747</cntvoice>
+        <cntemail>sciencebase@usgs.gov</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>Unless otherwise stated, all data, metadata and related materials are considered to satisfy the quality standards relative to the purpose for which the data were collected. Although these data and associated metadata have been reviewed for accuracy and completeness and approved for release by the U.S. Geological Survey (USGS), the Geological Survey of Canada (GSC), and Geoscience Australia (GA), no warranty expressed or implied is made regarding the display or utility of the data for other purposes, nor on all computer systems, nor shall the act of distribution constitute any such warranty.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>SHP</formname>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://doi.org/10.5066/P970GDD5</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>none</fees>
+    </stdorder>
+    <techpreq>none</techpreq>
+  </distinfo>
+  <metainfo>
+    <metd>20230814</metd>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntper>Carma A San Juan</cntper>
+          <cntorg>U.S. Geological Survey, ROCKY MOUNTAIN REGION</cntorg>
+        </cntperp>
+        <cntpos>Physical Scientist</cntpos>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>Mail Stop 973, W 6th Ave Kipling St</address>
+          <city>Lakewood</city>
+          <state>CO</state>
+          <postal>80225</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>303-236-2450</cntvoice>
+        <cntfax>303-236-3200</cntfax>
+        <cntemail>csanjuan@usgs.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+</metadata>
